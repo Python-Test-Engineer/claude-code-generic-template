@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "mcp__ide__executeCode",
+      "Bash(uv python:*)",
+      "Bash(uv init:*)",
+      "Bash(uv add:*)",
+      "Bash(uv run:*)",
+      "Bash(PYTHONUTF8=1 uv run:*)",
+      "Bash(awk NR==2 {print; exit}:*)",
+      "WebSearch",
+      "WebFetch(domain:pmc.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:www.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:ftp.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:www.nature.com)",
+      "WebFetch(domain:www.ebi.ac.uk)",
+      "WebFetch(domain:gdc.cancer.gov)",
+      "WebFetch(domain:www.cell.com)",
+      "WebFetch(domain:www.biorxiv.org)",
+      "Bash(git:*)"
+    ]
+  }
+}

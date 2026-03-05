@@ -1,0 +1,25 @@
+.env
+.env*
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# data (too large and may contain patient data)
+data/
+
+# local Claude Code permissions — each user maintains their own
+.claude/settings.local.json
+
+# tests
+
+.pytest_cache/
+coverage.xml
+htmlcov/
